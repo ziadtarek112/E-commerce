@@ -1,0 +1,16 @@
+.featuredProducts{
+
+    margin: 100px 200px;
+
+    h1{
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    .products{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+}
