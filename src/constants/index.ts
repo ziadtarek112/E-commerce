@@ -1,4 +1,3 @@
-import { SpaRounded } from '@mui/icons-material';
 import {Product} from '../models/index'
 
 export const images = [
