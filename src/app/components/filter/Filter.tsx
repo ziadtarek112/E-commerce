@@ -40,12 +40,12 @@ const Filter = ({setMaxPrice , setSort}:FilterProps) => {
                     </div>
 
                     <div className='inputItem'>
-                        <input type="radio" id='asc' value='asc' name='price' onChange={e=>setSort('asc')}/>
+                        <input type="radio" id='asc' value='asc' name='price' onChange={()=>setSort('asc')}/>
                         <label htmlFor="asc">Price (Lowest to Highest)</label>
                     </div>
 
                     <div className='inputItem'>
-                        <input type="radio" id='dsc' value='dsc' name='price'onChange={e=>setMaxPrice('desc')}/>
+                        <input type="radio" id='dsc' value='dsc' name='price'onChange={()=>setSort('desc')}/>
                         <label htmlFor="dsc">Price (Highest to Lowest)</label>
                     </div>
                 </div>
