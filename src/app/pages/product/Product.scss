@@ -1,18 +1,21 @@
 .product {
   padding: 20px 50px;
   display: flex;
-  gap: 12px;
+
+  gap: 16px;
   .left {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 18px;
     .mainImg {
+        height: 100%;
       img {
-        max-height: 800px;
+        height: 100%;
         max-width: 100%;
+        object-fit: cover;
       }
-      object-fit: cover;
+    
     }
     .subImgs {
       flex: 1;
